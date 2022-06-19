@@ -1,0 +1,53 @@
+#nav{
+    
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+    margin: 0;
+    display:flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: fixed;
+}
+
+#nav div.name{
+    margin-left: 5%;
+    flex-basis: 70%;
+}
+#nav div.options{
+    
+    flex-basis: 15%;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+article{
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+body{
+  background-image: url("../images/bgimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#FDFEFF;
+  text-shadow: 2px 2px black;
+}
+#text{
+    background-color: rgba(0,0,0,0.5);
+    padding:1% 2% ;
+    border-radius: 25px ;
+    
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    border: none;
+    background-color: black;
+    color: white;
+    margin: auto;
+}

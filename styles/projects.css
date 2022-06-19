@@ -1,0 +1,84 @@
+#nav{
+    
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+    margin: 0;
+    display:flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+
+#nav div.name{
+    margin-left: 5%;
+    flex-basis: 70%;
+}
+#nav div.options{
+    
+    flex-basis: 15%;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    border: none;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+.card{
+    align-items: center;
+    
+}
+body{
+    
+    background-color: #f1f2f6;
+    background-image: linear-gradient(315deg, #f1f2f6 0%, #c9c6c6d2 74%);
+    
+
+}
+/* OUTER CONTAINER */
+.tcontainer {
+    width: 100%;
+    overflow: hidden; /* Hide scroll bar */
+  }
+   
+  /* MIDDLE CONTAINER */
+  .ticker-wrap {
+    width: 100%;
+    padding-left: 100%; /* Push contents to right side of screen */
+    background-color: #eee;
+  }
+  
+  /* INNER CONTAINER */
+  @keyframes ticker {
+    0% { transform: translate3d(0, 0, 0); }
+    100% { transform: translate3d(-100%, 0, 0); }
+  }
+  .ticker-move {
+    /* Basically move items from right side of screen to left in infinite loop */
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 100%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: ticker;
+    animation-duration: 10s;
+  }
+  .ticker-move:hover{
+    animation-play-state: paused; /* Pause scroll on mouse hover */
+  }
+  
+  /* ITEMS */
+  .ticker-item{
+    display: inline-block; /* Lay items in a horizontal line */
+    padding: 0 2rem;
+  }

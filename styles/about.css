@@ -1,0 +1,53 @@
+#nav{
+    
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+    margin: 0;
+    display:flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+
+#nav div.name{
+    margin-left: 5%;
+    flex-basis: 70%;
+}
+#nav div.options{
+    
+    flex-basis: 15%;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.card{
+    
+    margin-top: 8%;
+    margin-left: 15%;
+    margin-right: auto;
+    margin-bottom: 3%;
+} 
+body{
+    
+    /* background-color: #f1f2f6;
+    background-image: linear-gradient(315deg
+, #f1f2f6 0%, #c9c6c6d2 74%); */
+background-image: url("../images/bgimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    border: none;
+    background-color: black;
+    color: white;
+}
